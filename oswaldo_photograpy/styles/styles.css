@@ -1,0 +1,122 @@
+#logo a img{
+  float:left;
+  display: block;
+  height: 84.3px;
+  width: 10%;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  background-color: #191919;
+}
+#logo a{
+  margin: 0;
+  height: 220px;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*oswaldo seating on stairs styles */
+figure img{
+  border: thick solid #eee;
+  border-radius: 10px;
+}
+#seat-stairs{
+  float: left;
+  position: static;
+}
+/*positioning picture and paragraphs*/
+/*figure#semi-formal{
+  float:left;
+}
+/*.grid {
+  display: grid;
+  grid-template-rows: 600px 500px;
+  grid-template-columns: 40% 40%;
+  grid-gap: 20px 20px;
+
+}*/
+/*div#formal-pic figure#semi-formal {
+  grid-column: 1 / span 2;
+
+}*/
+
+footer{
+  clear:both;
+}
+/* Get To Know ME */
+.body-content h1{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 10px;
+}
+/*fun facts stuff */
+#facts li{
+  line-height: 1.5em;
+}
+div#fun-facts{
+  margin-top: 150px;
+}
+/*contact me button on About me page*/
+a#cont{
+  color: #fff;
+  background-color: #474745;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: Helvetica, serif, sans-serif;
+  font-weight: bold;
+}
+a#port{
+  color: #fff;
+  background-color: #474745;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: Helvetica, serif, sans-serif;
+  font-weight: bold;
+}
+
+/*Portfolio Page*/
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.column{
+  flex: 50%;
+  padding: 0 4px;
+}
+.column img{
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 30%;
+  border-radius: 5px;
+  border: 2px solid #eee;
+}
+.footer-content h6{
+  font-size: .85em;
+}
+
+
+/*FAQs Page*/
+dt{
+  line-height: 1.5em;
+  font-weight: 600;
+  font-size: 1.3em;
+  color: #973D3D;
+  /*color: #683939;*/
+}
+dl{
+  font-size: 14pt;
+}
+#list-faqs{
+  background-color: #eee;
+  border-radius: 10px;
+}
+#list-faqs dl{
+  padding: 10px;
+}

@@ -1,0 +1,46 @@
+/*nav links hover, focus, visited, etc... */
+#navigation ol li a:hover{
+  background-color: #AA6767;
+  border-radius: 10px;
+}
+#navigation ol li a:focus{
+  background-color: #eee;
+}
+#navigation ol li a:active{
+  background-color: #eee;
+  color: black;
+}
+/*portfolio"back to top" link */
+.column a{
+  color: #fff;
+  font-weight: bold;
+  background-color: #474745;
+  padding: 8px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.column a:hover{
+  background-color: #AA6767;
+}
+#link-portfolio a:hover{
+  background-color: #AA6767;
+}
+#link-portfolio a{
+  text-decoration: none;
+  font-family: Helvetica, serif, sans-serif;
+  font-weight: bold;
+}
+#link-contact a:hover{
+  background-color: #AA6767;
+}
+#link-contact a{
+  text-decoration: none;
+  font-family: Helvetica, serif, sans-serif;
+  font-weight: bold;
+}
+a#cont:hover{
+  background-color: #AA6767;
+}
+a#port:hover{
+  background-color: #AA6767;
+}
